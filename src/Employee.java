@@ -16,7 +16,7 @@ public class Employee {
         this.departament = departament;
 
         id = generateId;
-        generateId += generateId;
+        generateId++;
     }
 
     public String getFullName() {
@@ -44,6 +44,6 @@ public class Employee {
     }
 
     public String toString() {
-        return "fullmane " + fullName + " salary " + salary + " department " + departament + " id " + generateId;
+        return "fullmane " + fullName + " salary " + salary + " department " + departament + " id " + id;
     }
 }
